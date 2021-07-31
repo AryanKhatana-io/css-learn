@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Strat Hawk</title>
+        <link rel="stylesheet" href="style/booking%20for%20strat-hawk.css">
+    </head>
+    <body>
+        <div class="nav">
+        <h1 class="logo">Strat Hawk</h1>  
+        <a class="nav-item"  href="index.html">Home</a>
+        <a class="nav-item" href="booking.html">My Booking</a>
+        <a class="nav-item" href="destination.html">Destination</a>
+        <a class="nav-item" href="login.html">login</a>
+        <a class="nav-item" href="singup.html">Singup</a>
+        </div>
+<!--        <h2 class="heading">Plan</h2>-->
+   <img class="banner-image" src="image/flight.jpeg" >
+        <div class="shading"></div>
+        <div class="banner-text">The World is yours.</div>
+        <div class="Search-form-container">
+     <h2 class="heading">Search Flights</h2>
+        <form action="index.html">
+            <div class="search-element-container">
+                <div class="form-group">
+            <input class="form-input" type="text" name="from" placeholder="From" required>
+                </div>
+            <div class="form-group">
+            <input type="text" name="to" placeholder="To" required>
+                </div>
+                <div class="form-group">
+            <input type="text" name="travelDate" placeholder="Travel Date yyyy-mm-dd"
+                   patter="([12]\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01]))" title="yyyy-mm-dd"
+                   required>
+                    </div>
+                <div class="form-group"> 
+            <select name="class">
+                <option>Economy</option>
+                <option>Business</option>
+                <option>First</option>
+            </select>
+                </div>  
+                </div>
+             <input type="submit" value="search">
+        </form>
+      </div>
+        
+        <div class="recommended-flights">
+        <h2 class="heading-recommended-flights">Recommended Flights</h2>
+              
+
+<!--
+        <table border="1" cellpadding="10" cellspacing="0" >
+            <tr>
+                <th>Flight</th>
+                <th>Departure</th>
+                <th>Duration</th>
+                <th>Arrival</th>
+                <th>Cost</th>
+                <th>Book</th>
+            </tr>
+            <tr>
+                <td>SH288</td>
+                <td>Berlin(BER)
+                21:00 wed 28 oct 2020</td>
+                <td>49 hrs 5min</td>
+                <td>Sydeny(SYD) 08:05 sat 31 Oct 2020</td>
+                <td>$3447</td>
+                <td> </td>
+            </tr>
+             <tr>
+                <td>SH245</td>
+                <td>Sydney(SYD)
+                22:00 wed 10 Nov 2020</td>
+                <td>23 hrs 55 min</td>
+                <td>Berlin(BER) 12:20 Wed 11 Nov 2020</td>
+                <td>$801</td>
+                <td> </td>
+            </tr>
+-->
+
+   <div class="flights">
+       <div class="flight">
+           <div class="flight-number">SH288</div>
+           <div class="schedule">
+               <div class="departure">
+                   <div class="from">Berlin(BER)</div>
+                   <div class="departuretime">21:00</div>
+                   <div class="depaturedate">Wed 28 Oct 2020</div>  
+               </div>
+               <div class="duration">49 hrs 5 min</div>
+               <div class="arrival">
+                  <div class="to">Sydney(SYD)</div>
+                   <div class="arrivaltime">21:00</div>
+                   <div class="arrivaldate">Wed 31 Oct 2020</div> 
+               </div>
+           </div>
+           <div class="cost">$3,447</div>
+           <form action="booking.html">
+               <input type="submit" value="Book" class="btn">
+           </form>
+       </div>
+       <div class="flight">
+           <div class="flight-number">SH245</div>
+           <div class="schedule">
+               <div class="departure">
+                   <div class="from">Sydney(SYD</div>
+                   <div class="departuretime">22:25</div>
+                   <div class="depaturedate">Tue 10 Nov 2020</div>  
+               </div>
+               <div class="duration">23 hrs 55 min</div>
+               <div class="arrival">
+                  <div class="to">Berlin(BER)</div>
+                   <div class="arrivaltime">12:20</div>
+                   <div class="arrivaldate">Wed 11 Nov 2020</div> 
+               </div>
+           </div>
+           <div class="cost">$801</div>
+           <form action="booking.html">
+               <input type="submit" value="Book" class="btn">
+           </form>
+       </div> 
+    </div>  
+        </div>
+<!--        </table>-->
+    </body>
+</html>

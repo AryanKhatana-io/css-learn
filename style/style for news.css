@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap'); 
+.Box {
+    font-family:"Roboto Slab",Arial,Helvetica;
+    font-size: 34px;
+    font-weight: bold;
+    color: green;
+    background-color: aquamarine;
+    border-color: red;
+    border-style:solid;
+    border-radius:15px;
+    border-width:12px;
+    width: 2px;
+    padding: 20px 49px 12px 89px;
+    margin: auto;
+    margin-top: 79px;
+    text-align: center;
+    padding: 12%;`
+    height:5%;
+    width: 18%;
+    margin: 50%;
+    margin-top: 20px;
+}
+
+body {
+    font-family:"Roboto Slab"
+}
+
+.Article{
+    width:50%;
+    margin: auto;
+    border: 20%;
+    border-radius: 40%;
+    padding: 20%;
+}
+.article-image{
+    width: 30%;
+    float: right;
+    margin: 10px;
+}
+@media screen and (max-width:414px){
+    .Article{
+        width: 100%;
+        padding: 0;
+        
+    }
+    .article-image{
+        width: 100%;
+    }
+    
+}
+.heading{
+    color: #228be0
+}
+.sub-heading{
+    color: crimson;
+    
+        
+}
+.paragraph{
+    color: yellow;
+    text-align: justify;        
+}
+*{
+    border: 2px solid red
+}

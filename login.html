@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+    <head>
+        <body>
+            <title>Strat Hawk</title>
+     <link rel="stylesheet" href="style/style.css">
+        </body>
+    </head>
+    <body>
+        <h1 class="logo">Strat Hawk</h1>
+        <a class="nav-item" href="index.html">Home</a>
+        <a class="nav" href="booking.html">My Booking</a>
+        <a class="nav-item" href="destination.html">Destination</a>
+        <a class="nav" href="login.html">Login</a>  
+        <a class="nav-item" href="singup.html">Sing Up</a>
+        <h2 class="heading">Plan</h2>
+        <img src="images/flight.jpeg" width="400">
+        <h2 class="heading">Search Flights</h2>
+        <form action="index.html">
+          <input type="text" name="from" placeholder="from" required>
+          <input type="text" name="to"   placeholder="to"   required> 
+          <input type="text" name="travel date" placeholder="Travel Date yyyy-mm-dd" pattern="([12]\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01]))"
+                 title="yyyy-mm-dd" required>
+            <select name="class">
+                <option>Economy</option>
+                <option>Bussiness</option>
+                <option>First</option>
+            </select>
+            <input type="submit" value="search">
+        </form>
+        <h2 class="heading">Recommended Flights</h2>
+        <table cellspacing="0" border="1" cellpadding="10">
+            <tr>
+               <th class="nav">Flight</th>
+            <th class="logo">Departure</th>
+            <th class="abc">Duration</th>    
+            <th>Arrival</th>
+            <th>Cost</th>
+            <th>Book</th>
+            </tr>
+            <tr>
+                 <td>SH288</td>
+                <td>
+                    Berlin (BER)<br>
+                    21:00<br>
+                    Wed 28 Oct 2020
+                </td>
+                <td>49 hrs 5 mins</td>
+                <td>
+                    Sydney (SYD)<br>
+                    08:05<br>
+                    Sat 31 Oct 2020
+                </td>
+                <td>$3447</td>
+                <td>
+                    <form action="booking.html">
+                         <input type="submit" value="Book">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td class="abc">SH245</td>
+                <td>
+                   <div>Sydney (SYD)</div> 
+                    <div>22:25</div>
+                    <div>Tue 10 Nov 2020</div>
+                </td>
+                <td>23 hrs 55 mins</td>
+                <td>
+                    <div>Berlin (BER)</div>
+                   <div>12:20</div>
+                   <div>Wed 11 Nov 2020</div> 
+                </td>
+                <td>$801</td>
+                <td>
+                    <form action="booking.html">
+                       <input class="abc" type="submit" value="Book">
+                    </form>
+                </td>
+            </tr>
+        </table>
+
+    </body>
+</html>

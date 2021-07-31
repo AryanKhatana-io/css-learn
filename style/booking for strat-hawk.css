@@ -1,0 +1,196 @@
+body{
+    font-family: cursive;
+    background-color: beige;
+    margin:0px;
+}
+input,select,button{
+    font-family: cursive
+}
+.nav{
+    background-color: brown;
+    color:black;
+    width: 100%;
+    height: 5rem;
+}
+.logo{
+    color: blue;
+    float: left;
+    margin: rem;
+}
+.nav-item{
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: chartreuse;
+    float: left;
+    margin: 1.5rem;
+    text-decoration: none;
+}
+.nav-item:hover{
+    color: darkgreen;
+}
+.heading{
+    color: fuchsia;
+    clear: both;
+    margin-top: 0;
+}
+.destination{
+    float: left;
+    margin-left: 1rem; 
+}
+.destination-image{
+    max-width: 100%;
+    max-height: 300px
+}
+.flights{
+    display: grid;
+    grid-template-columns: 1fr 1fr  1fr 1fr;
+    margin: 1rem;
+}
+.flight{
+    margin-right: 0.5rem;
+    background-color: violet;
+    padding: 0.5rem;
+}
+.flight-number{
+    background-color:red;
+    color:antiquewhite;
+    font-weight: bold;
+    padding: 0.25rem;
+}
+.duration{
+    font-size: 0.625rem;
+    text-align: center;
+    margin: 0.25rem;
+}
+.schedule{
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-gap: 0.25rem;
+}
+.form, .to, .departuredate, .departuretime, .arrivetime, .arrivedate, .duration{
+    text-align: center;
+    margin: 0.25rem;
+    color: aqua;
+}
+.from, .to{
+    font-size: 14px;
+    font-weight: bold;
+}
+.depaturetime, .arrivetime{
+    font-size: 13px;
+}
+.depaturedime, .arrivedime{
+    font-size: 11px;
+}
+.cost{
+    text-align: center;
+    font-weight: bold;
+    margin: 0.5rem;
+    float: right;
+    color: chocolate;
+}
+.btn{
+    padding: 0.5rem;
+    font-size: 0.9375;
+    font-weight: bold;
+    background-color: cornflowerblue;
+    color:deeppink;
+    cursor: pointer;
+    border: 0.1rem solid white;
+/*
+    float: left;
+    margin: 0.5rem;
+*/
+}
+.btn:hover{
+    background-color: darkmagenta;
+    color: forestgreen;
+}
+*{
+    box-sizing: border-box;
+}
+.login-form-container{
+    background-color: deeppink;
+    padding: 1.5rem;
+    margin: 1rem;
+    width: 300px;
+}
+.login-element-container{
+    display: grid;
+}
+
+.label{
+    color: cornflowerblue;
+    display: block;
+}
+.form-group{
+    margin-bottom: 0.5rem;
+}
+.form-input{
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    outline: none;
+    
+}
+signup-form-container{
+    width: 38rem;
+    background-color: chartreuse;
+    padding: 1rem;
+    margin: 1rem;
+    
+}
+.signup-element-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+.label-inline{
+    color: darkgreen;
+    display: inline;
+}
+.search-form-container{
+    width: 20rem;
+    background-color: firebrick;
+    padding: 1rem;
+    margin: 1rem;
+    position: absolute;
+    left: 50rem;
+    top: 7rem;
+}
+.search-element-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.5rem;
+}
+.banner-image{
+    width: 100%;
+    position: relative;
+}
+.shading{
+    width: 100%;
+    height: 35rem;
+    position: absolute;
+    opacity: 0.2;
+    background-color: red;
+    top: 5rem;
+}
+.banner-text{
+    width: 38rem;
+    position: absolute;
+    top: 5rem;
+    left: 3rem;
+    opacity: 0.8;
+    font-size: 5rem;
+    padding: 3rem;
+    color:darkgoldenrod;
+}
+.heading-recommended-flights{
+    margin-left: 1rem;
+    color: darkred;
+}
+.recommended-flights{
+    position: absolute;
+    top: 23rem;
+    background-color: rgba(20,40,80,0.1)
+}

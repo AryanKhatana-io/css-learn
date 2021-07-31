@@ -1,0 +1,29 @@
+.container{
+    border: 2px solid red;
+}
+.item{
+    border: 2px solid pink;
+    height: 200px;
+    width: 200px;
+/*    position: static;*/
+   
+}
+/*
+.item1{
+    position: relative;
+    top: 2rem;
+    bottom: 1rem;
+}*/
+.item3{
+    position: fixed;
+    bottom: 0rem;
+    right: 0rem;
+}
+.item1{
+    background-color: blue;
+    width: 100%;
+    color: azure;
+    position:sticky;
+    top: 0rem;
+    bottom: 0rem;
+}
